@@ -27,11 +27,10 @@ For the ease of reproducibility. we provide some of the experimental results and
 
 ##### 1. VGG-16
 
-| Flops         | Accuracy      |compress_rate      |Model                |
-|---------------|---------------|-------------------|---------------------|
-| 100%          | 93.96%        |[0]                |(https://drive.google.com/file/d/1q_uzAvsAPyQxdaeYWy9NkpnRxwWRr_zc/view?usp=sharing)
-|---------------|---------------|-------------------|
-| 108.61M(65.3%)| 92.34%        |                   |
+| Flops     | Accuracy  |way and Model                |
+|-----------|-----------|-----------------------------|
+| 100%      | 93.96%    |[VGG16](https://drive.google.com/file/d/1q_uzAvsAPyQxdaeYWy9NkpnRxwWRr_zc/view?usp=sharing)
+| 53.1%     | 93.64%    |[A](https://drive.google.com/file/d/1q_uzAvsAPyQxdaeYWy9NkpnRxwWRr_zc/view?usp=sharing)
 
 
-[VGG16](https://share.weiyun.com/6Ruys9dc)
+
