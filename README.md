@@ -21,6 +21,11 @@ EXP way : Complete pruning using the expectation scaling factor
 /compress_rate/ ： compress rate of each conv
 /arch/ ： The architecture to prune
 /pruning_way/ ： The chosen pruning method,A:bn priority pruning ; B:Full-layer redundant pruning
+
+&&& cal_flops_params.py &&&
+/input_image_size/ : 32(CIFAR-10) or 224(ImageNet)
+/arch/ ： The architecture to prune
+/compress_rate/ ： compress rate of each conv
 ```
 
 ## Model Training
