@@ -36,15 +36,39 @@ For the ease of reproducibility. we provide some of the experimental results and
 
 ##### 2. ResNet-56
 
-| Flops     | Accuracy  |way and Model                |
-|-----------|-----------|-----------------------------|
-| 100%      | 93.26%    |[Res56](https://drive.google.com/file/d/1WE83j7rlKlCp-tslSL6hS-d_mJe4ZQ2r/view?usp=sharing)
-| 53.5%     | 93.54%    |[A](https://drive.google.com/file/d/1WhW7O0-GDvZCLpwvXdCLVWK5kddgk94z/view?usp=sharing)
-| 53.5%     | 93.82%    |[B](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)
-| 60.5%     | 93.48%    |[A](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)
-| 60.5%     | 93.63%    |[B](https://drive.google.com/file/d/198ei_zfehnHD0lidqqhn8eu03BlaE6Ag/view?usp=sharing)
-| 71.9%     | 92.91%    |[A](https://drive.google.com/file/d/1hxmyNi-nPra9QGfqxBdAWojIF5kG5uXi/view?usp=sharing)
-| 71.9%     | 93.03%    |[B](https://drive.google.com/file/d/19YHyQtdO_DerQBquDut8FVRGQpIUHF5j/view?usp=sharing)
+| Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
+|-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
+| 100%      | 93.26%    |[ResNet-56](https://drive.google.com/file/d/1WE83j7rlKlCp-tslSL6hS-d_mJe4ZQ2r/view?usp=sharing)
+| 53.5%     | 93.54%    |[A](https://drive.google.com/file/d/1WhW7O0-GDvZCLpwvXdCLVWK5kddgk94z/view?usp=sharing)| 60.5%     | 93.63%    |[B](https://drive.google.com/file/d/198ei_zfehnHD0lidqqhn8eu03BlaE6Ag/view?usp=sharing)
+| 53.5%     | 93.82%    |[B](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)| 71.9%     | 92.91%    |[A](https://drive.google.com/file/d/1hxmyNi-nPra9QGfqxBdAWojIF5kG5uXi/view?usp=sharing)
+| 60.5%     | 93.48%    |[A](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)| 71.9%     | 93.03%    |[B](https://drive.google.com/file/d/19YHyQtdO_DerQBquDut8FVRGQpIUHF5j/view?usp=sharing)
+
+##### 3. ResNet-110
+
+| Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
+|-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
+| 100%      | 93.50%    |[ResNet-110](https://drive.google.com/file/d/1YhJHzSBiCsQcNIdamI2_GzclpXvSXcPG/view?usp=sharing)
+| 60.1%     | 93.96%    |[A](https://drive.google.com/file/d/1qTeTYPiyVZCPaEhzH1z_HvDyKlWuQtoF/view?usp=sharing)| 70.0%     | 93.52%    |[A](https://drive.google.com/file/d/1W8_PgJqjSK52ehsiPVF1ENtglOUkyttR/view?usp=sharing)
+| 60.1%     | 93.73%    |[B](https://drive.google.com/file/d/1UNPm5DWO8JYZGtbWAmELVkjb5UDcamem/view?usp=sharing)| 70.0%     | 93.78%    |[B](https://drive.google.com/file/d/1X1KapJ3h-nfiPGUOCdiLftjwGIAC9TyD/view?usp=sharing)
+
+##### 4. GoogLeNet
+
+| Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
+|-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
+| 100%      | 95.05%    |[GoogLeNet](https://drive.google.com/file/d/1TXF2OUwkUUWBVAj5Q-QRRO2ZNVRcdmqB/view?usp=sharing)
+| 62.1%     | 95.02%    |[A](https://drive.google.com/file/d/19N_maLGWQAlO4m_S77Qm4m791oMoe4ha/view?usp=sharing)| 70.4%     | 95.02%    |[A](https://drive.google.com/file/d/1kFdE9A43Nl8V672-vuVxSWLHEUS0r9TA/view?usp=sharing)
+| 62.1%     | 94.95%    |[B](https://drive.google.com/file/d/1woyidXT9O-TQHiieEUrSu7UTbxVPkvtA/view?usp=sharing)| 70.4%     | 94.87%    |[B](https://drive.google.com/file/d/1C1BKJUUHmrcS0Xkx1hRIimz9BL6fC0gf/view?usp=sharing)
+
+##### 5. ResNet-50
+
+| Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
+|-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
+| 100%      | 95.05%    |[ResNet-50](https://drive.google.com/file/d/1H8MlYJCSLmjJOaLjSBMCeh5zfN2bEYT9/view?usp=sharing)
+| 62.1%     | 95.02%    |[A](https://drive.google.com/file/d/19N_maLGWQAlO4m_S77Qm4m791oMoe4ha/view?usp=sharing)| 70.4%     | 95.02%    |[A](https://drive.google.com/file/d/1kFdE9A43Nl8V672-vuVxSWLHEUS0r9TA/view?usp=sharing)
+| 62.1%     | 94.95%    |[B](https://drive.google.com/file/d/1woyidXT9O-TQHiieEUrSu7UTbxVPkvtA/view?usp=sharing)| 70.4%     | 94.87%    |[B](https://drive.google.com/file/d/1C1BKJUUHmrcS0Xkx1hRIimz9BL6fC0gf/view?usp=sharing)
+
+
+
 
 
 
