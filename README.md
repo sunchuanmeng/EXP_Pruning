@@ -3,10 +3,12 @@ EXP way : Complete pruning using the expectation scaling factor
 
 ## Running Code
 
-In this code, you can run our models on CIFAR-10 and ImageNet dataset. The code has been tested by Python 3.6, Pytorch 1.6 and CUDA 10.2 on Windows 10.
+    In this code, you can run our models on CIFAR-10 and ImageNet dataset. The code has been tested by Python 3.6, Pytorch 1.6 and CUDA 10.2 on Windows 10.
+    For the channel mask generation, no additional settings are required. You can just set the required parameters in main.py and it will run.
 
 ## parser
 ```shell
+&&& main.py &&&
 /data_dir/ : Dataset storage address
 /dataset/ ： dataset - CIFAR10 or Imagenet
 /lr/ ： initial learning rate
@@ -25,7 +27,7 @@ In this code, you can run our models on CIFAR-10 and ImageNet dataset. The code 
 
 For the ease of reproducibility. we provide some of the experimental results and the corresponding pruned rate of every layer as belows:
 
-##### 1. VGG-16
+### 1. VGG-16
 
 | Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
 |-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
@@ -34,7 +36,7 @@ For the ease of reproducibility. we provide some of the experimental results and
 | 53.1%     | 93.55%    |[B](https://drive.google.com/file/d/1Df7LM3kNULiqhT97TXgAlcvqETcJXwzK/view?usp=sharing)| 70.9%     | 93.25%    |[A](https://drive.google.com/file/d/1hxmyNi-nPra9QGfqxBdAWojIF5kG5uXi/view?usp=sharing)
 | 60.8%     | 93.50%    |[A](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)| 70.9%     | 93.54%    |[B](https://drive.google.com/file/d/19YHyQtdO_DerQBquDut8FVRGQpIUHF5j/view?usp=sharing)
 
-##### 2. ResNet-56
+### 2. ResNet-56
 
 | Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
 |-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
@@ -43,7 +45,7 @@ For the ease of reproducibility. we provide some of the experimental results and
 | 53.5%     | 93.82%    |[B](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)| 71.9%     | 92.91%    |[A](https://drive.google.com/file/d/1hxmyNi-nPra9QGfqxBdAWojIF5kG5uXi/view?usp=sharing)
 | 60.5%     | 93.48%    |[A](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)| 71.9%     | 93.03%    |[B](https://drive.google.com/file/d/19YHyQtdO_DerQBquDut8FVRGQpIUHF5j/view?usp=sharing)
 
-##### 3. ResNet-110
+### 3. ResNet-110
 
 | Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
 |-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
@@ -51,7 +53,7 @@ For the ease of reproducibility. we provide some of the experimental results and
 | 60.1%     | 93.96%    |[A](https://drive.google.com/file/d/1qTeTYPiyVZCPaEhzH1z_HvDyKlWuQtoF/view?usp=sharing)| 70.0%     | 93.52%    |[A](https://drive.google.com/file/d/1W8_PgJqjSK52ehsiPVF1ENtglOUkyttR/view?usp=sharing)
 | 60.1%     | 93.73%    |[B](https://drive.google.com/file/d/1UNPm5DWO8JYZGtbWAmELVkjb5UDcamem/view?usp=sharing)| 70.0%     | 93.78%    |[B](https://drive.google.com/file/d/1X1KapJ3h-nfiPGUOCdiLftjwGIAC9TyD/view?usp=sharing)
 
-##### 4. GoogLeNet
+### 4. GoogLeNet
 
 | Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
 |-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
