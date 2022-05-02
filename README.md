@@ -27,15 +27,11 @@ For the ease of reproducibility. we provide some of the experimental results and
 
 ##### 1. VGG-16
 
-| Flops         | Accuracy      |Pre-training models|compress_rate        |
+| Flops         | Accuracy      |compress_rate      |Model                |
 |---------------|---------------|-------------------|---------------------|
-| 108.61M(65.3%)| 92.34%        |                   |
+| 100%          | 93.96%        |[0]                |(https://drive.google.com/file/d/1q_uzAvsAPyQxdaeYWy9NkpnRxwWRr_zc/view?usp=sharing)
 |---------------|---------------|-------------------|
 | 108.61M(65.3%)| 92.34%        |                   |
 
 
-```shell
---arch vgg_16_bn \
---compress_rate [0.95]+[0.5]*6+[0.9]*4+[0.8]*2 \
-```
 [VGG16](https://share.weiyun.com/6Ruys9dc)
