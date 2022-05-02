@@ -27,17 +27,14 @@ For the ease of reproducibility. we provide some of the experimental results and
 
 ##### 1. VGG-16
 
-| Flops     | Accuracy  |way and Model                |
-|-----------|-----------|-----------------------------|
+| Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
+|-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
 | 100%      | 93.96%    |[VGG16](https://drive.google.com/file/d/1q_uzAvsAPyQxdaeYWy9NkpnRxwWRr_zc/view?usp=sharing)
-| 53.1%     | 93.64%    |[A](https://drive.google.com/file/d/1S4he_cv9NGbtT3HL13uQ5qZQ5_r_3W9N/view?usp=sharing)
-| 53.1%     | 93.55%    |[B](https://drive.google.com/file/d/1Df7LM3kNULiqhT97TXgAlcvqETcJXwzK/view?usp=sharing)
-| 60.8%     | 93.50%    |[A](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)
-| 60.8%     | 93.73%    |[B](https://drive.google.com/file/d/198ei_zfehnHD0lidqqhn8eu03BlaE6Ag/view?usp=sharing)
-| 70.9%     | 93.25%    |[A](https://drive.google.com/file/d/1hxmyNi-nPra9QGfqxBdAWojIF5kG5uXi/view?usp=sharing)
-| 70.9%     | 93.54%    |[B](https://drive.google.com/file/d/19YHyQtdO_DerQBquDut8FVRGQpIUHF5j/view?usp=sharing)
+| 53.1%     | 93.64%    |[A](https://drive.google.com/file/d/1S4he_cv9NGbtT3HL13uQ5qZQ5_r_3W9N/view?usp=sharing)| 60.8%     | 93.73%    |[B](https://drive.google.com/file/d/198ei_zfehnHD0lidqqhn8eu03BlaE6Ag/view?usp=sharing)
+| 53.1%     | 93.55%    |[B](https://drive.google.com/file/d/1Df7LM3kNULiqhT97TXgAlcvqETcJXwzK/view?usp=sharing)| 70.9%     | 93.25%    |[A](https://drive.google.com/file/d/1hxmyNi-nPra9QGfqxBdAWojIF5kG5uXi/view?usp=sharing)
+| 60.8%     | 93.50%    |[A](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)| 70.9%     | 93.54%    |[B](https://drive.google.com/file/d/19YHyQtdO_DerQBquDut8FVRGQpIUHF5j/view?usp=sharing)
 
-##### 1. ResNet-56
+##### 2. ResNet-56
 
 | Flops     | Accuracy  |way and Model                |
 |-----------|-----------|-----------------------------|
