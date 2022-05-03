@@ -41,6 +41,17 @@ For the ease of reproducibility. we provide some of the experimental results and
 | 53.1%     | 93.55%    |[B](https://drive.google.com/file/d/1Df7LM3kNULiqhT97TXgAlcvqETcJXwzK/view?usp=sharing)| 70.9%     | 93.25%    |[A](https://drive.google.com/file/d/1hxmyNi-nPra9QGfqxBdAWojIF5kG5uXi/view?usp=sharing)
 | 60.8%     | 93.50%    |[A](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)| 70.9%     | 93.54%    |[B](https://drive.google.com/file/d/19YHyQtdO_DerQBquDut8FVRGQpIUHF5j/view?usp=sharing)
 
+```shell
+The compression rates we used in our experiments are as follows.
+[0.1]*2+[0.4]*2+[0.5]*2+[0.6]*2+[0.7]*3+[0.6]*2
+147.16M（53.14%）  5.35M（64.28%）
+
+[0.1]*2+[0.5]*2+[0.6]*2+[0.7]*2+[0.8]*3+[0.6]*2
+122.88M（60.83%）  4.40M（70.62%）
+
+[0.3]*2+[0.6]*2+[0.7]*2+[0.8]*2+[0.9]*3+[0.6]*2
+91.30M（70.89%）   3.45M（76.96%）
+```
 ### 2. ResNet-56
 
 | Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
@@ -50,6 +61,17 @@ For the ease of reproducibility. we provide some of the experimental results and
 | 53.5%     | 93.82%    |[B](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)| 71.9%     | 92.91%    |[A](https://drive.google.com/file/d/1hxmyNi-nPra9QGfqxBdAWojIF5kG5uXi/view?usp=sharing)
 | 60.5%     | 93.48%    |[A](https://drive.google.com/file/d/1qs1cFQBko9HdNno7XeybT7xVTPH-hAGl/view?usp=sharing)| 71.9%     | 93.03%    |[B](https://drive.google.com/file/d/19YHyQtdO_DerQBquDut8FVRGQpIUHF5j/view?usp=sharing)
 
+```shell
+The compression rates we used in our experiments are as follows.
+[0.0]+[0.7]*17+[0.4]*2+[0.7]*16+[0.5]*2+[0.8]*17
+35.19M(71.95%) 0.20M(76.47%)
+
+[0.0]+[0.5]*17+[0.5]*2+[0.6]*16+[0.5]*2+[0.7]*17
+49.50M（60.55%） 0.27M（68.23%）
+
+[0.0]+[0.4]*17+[0.5]*2+[0.6]*16+[0.4]*2+[0.6]*17
+49.50M（53.56%） 0.34M（60.00%）
+```
 ### 3. ResNet-110
 
 | Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
@@ -58,6 +80,14 @@ For the ease of reproducibility. we provide some of the experimental results and
 | 60.1%     | 93.96%    |[A](https://drive.google.com/file/d/1qTeTYPiyVZCPaEhzH1z_HvDyKlWuQtoF/view?usp=sharing)| 70.0%     | 93.52%    |[A](https://drive.google.com/file/d/1W8_PgJqjSK52ehsiPVF1ENtglOUkyttR/view?usp=sharing)
 | 60.1%     | 93.73%    |[B](https://drive.google.com/file/d/1UNPm5DWO8JYZGtbWAmELVkjb5UDcamem/view?usp=sharing)| 70.0%     | 93.78%    |[B](https://drive.google.com/file/d/1X1KapJ3h-nfiPGUOCdiLftjwGIAC9TyD/view?usp=sharing)
 
+```shell
+The compression rates we used in our experiments are as follows.
+[0.0]+[0.6]*35+[0.5]*2+[0.60]*34+[0.6]*2+[0.6]*35
+101.00M（60.06%）   0.67M（61.04%）
+
+[0.1]+[0.7]*35+[0.6]*2+[0.70]*34+[0.7]*2+[0.7]*35
+76.02M（70.00%）    0.51M（70.34%）
+```
 ### 4. GoogLeNet
 
 | Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
@@ -66,15 +96,30 @@ For the ease of reproducibility. we provide some of the experimental results and
 | 62.1%     | 95.02%    |[A](https://drive.google.com/file/d/19N_maLGWQAlO4m_S77Qm4m791oMoe4ha/view?usp=sharing)| 70.4%     | 95.02%    |[A](https://drive.google.com/file/d/1kFdE9A43Nl8V672-vuVxSWLHEUS0r9TA/view?usp=sharing)
 | 62.1%     | 94.95%    |[B](https://drive.google.com/file/d/1woyidXT9O-TQHiieEUrSu7UTbxVPkvtA/view?usp=sharing)| 70.4%     | 94.87%    |[B](https://drive.google.com/file/d/1C1BKJUUHmrcS0Xkx1hRIimz9BL6fC0gf/view?usp=sharing)
 
-##### 5. ResNet-50
+```shell
+The compression rates we used in our experiments are as follows.
+[0.1]+[0.5]+[0.6]+[0.8]*4+[0.7]+[0.8]*2
+0.576B（62.11%） 2.01M（67.31%）
+
+[0.1]+[0.6]+[0.7]+[0.9]*4+[0.8]+[0.9]*2
+0.45B（70.39%）  1.51M（75.44%）
+```
+### 5. ResNet-50
 
 | Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
 |-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
 | 100%      | 95.05%    |[ResNet-50](https://drive.google.com/file/d/1H8MlYJCSLmjJOaLjSBMCeh5zfN2bEYT9/view?usp=sharing)
-| 62.1%     | 95.02%    |[A](https://drive.google.com/file/d/19N_maLGWQAlO4m_S77Qm4m791oMoe4ha/view?usp=sharing)| 70.4%     | 95.02%    |[A](https://drive.google.com/file/d/1kFdE9A43Nl8V672-vuVxSWLHEUS0r9TA/view?usp=sharing)
-| 62.1%     | 94.95%    |[B](https://drive.google.com/file/d/1woyidXT9O-TQHiieEUrSu7UTbxVPkvtA/view?usp=sharing)| 70.4%     | 94.87%    |[B](https://drive.google.com/file/d/1C1BKJUUHmrcS0Xkx1hRIimz9BL6fC0gf/view?usp=sharing)
+|  %     |  %    |[A](https://drive.google.com/file/d/19N_maLGWQAlO4m_S77Qm4m791oMoe4ha/view?usp=sharing)|  %     |  %    |[A](https://drive.google.com/file/d/1kFdE9A43Nl8V672-vuVxSWLHEUS0r9TA/view?usp=sharing)
+|  %     |  %    |[B](https://drive.google.com/file/d/1woyidXT9O-TQHiieEUrSu7UTbxVPkvtA/view?usp=sharing)|  %     |  %    |[B](https://drive.google.com/file/d/1C1BKJUUHmrcS0Xkx1hRIimz9BL6fC0gf/view?usp=sharing)
 
+```shell
+The compression rates we used in our experiments are as follows.
+[0.0]+[0.2]*10+[0.5]*13+[0.6]*19+[0.7]*10
+1.912B（53.25%）  9.70（61.96%）
 
+[0.0]+[0.4]*10+[0.6]*13+[0.7]*19+[0.7]*10
+1.549B（62.13%）  8.87（65.21%）
+```
 
 
 
