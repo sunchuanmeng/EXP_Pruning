@@ -108,7 +108,7 @@ The compression rates we used in our experiments are as follows.
 
 | Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
 |-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
-| 100%      | 95.05%    |[ResNet-50](https://drive.google.com/file/d/1H8MlYJCSLmjJOaLjSBMCeh5zfN2bEYT9/view?usp=sharing)
+| 100%      | 76.15%    |[ResNet-50](https://drive.google.com/file/d/1H8MlYJCSLmjJOaLjSBMCeh5zfN2bEYT9/view?usp=sharing)
 | 53.05%    |  75.71%    |[A](https://drive.google.com/file/d/1qZsJibWGkZTp6AiVOt_OrLZz-_crKYEo/view?usp=sharing)| 60.63%     | 74.53%    |[A](https://drive.google.com/file/d/1A9JiEkOXTKbezOscs5_crf3rvio5HSIz/view?usp=sharing)
 | 53.05%    |  75.76%    |[B](https://drive.google.com/file/d/12J-HEY1CMqREsfQEMNfiYpw7ON90WuF8/view?usp=sharing)| 60.00%     | 75.02%    |[B](https://drive.google.com/file/d/1kEAO46J2j5k6wnMeh9dKh-EvdaDd0M6C/view?usp=sharing)
 
