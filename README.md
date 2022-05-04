@@ -109,16 +109,14 @@ The compression rates we used in our experiments are as follows.
 | Flops     | Accuracy  |way and Model                | Flops     | Accuracy  |way and Model                |
 |-----------|-----------|-----------------------------|-----------|-----------|-----------------------------|
 | 100%      | 95.05%    |[ResNet-50](https://drive.google.com/file/d/1H8MlYJCSLmjJOaLjSBMCeh5zfN2bEYT9/view?usp=sharing)
-|  %     |  %    |[A](https://drive.google.com/file/d/19N_maLGWQAlO4m_S77Qm4m791oMoe4ha/view?usp=sharing)|  %     |  %    |[A](https://drive.google.com/file/d/1kFdE9A43Nl8V672-vuVxSWLHEUS0r9TA/view?usp=sharing)
-|  %     |  %    |[B](https://drive.google.com/file/d/1woyidXT9O-TQHiieEUrSu7UTbxVPkvtA/view?usp=sharing)|  %     |  %    |[B](https://drive.google.com/file/d/1C1BKJUUHmrcS0Xkx1hRIimz9BL6fC0gf/view?usp=sharing)
+| 53.05%    |  75.71%    |[A](https://drive.google.com/file/d/1qZsJibWGkZTp6AiVOt_OrLZz-_crKYEo/view?usp=sharing)| 60.63%     | 74.53%    |[A](https://drive.google.com/file/d/1A9JiEkOXTKbezOscs5_crf3rvio5HSIz/view?usp=sharing)
+| 53.05%    |  75.76%    |[B](https://drive.google.com/file/d/12J-HEY1CMqREsfQEMNfiYpw7ON90WuF8/view?usp=sharing)| 60.00%     | 75.02%    |[B](https://drive.google.com/file/d/1kEAO46J2j5k6wnMeh9dKh-EvdaDd0M6C/view?usp=sharing)
 
 ```shell
 The compression rates we used in our experiments are as follows.
-[0.0]+[0.2]*10+[0.5]*13+[0.6]*19+[0.7]*10
-1.912B（53.25%）  9.70（61.96%）
+[0.1]+[0.4]*10+[0.6]*13+[0.5]*19+[0.5]*10
 
-[0.0]+[0.4]*10+[0.6]*13+[0.7]*19+[0.7]*10
-1.549B（62.13%）  8.87（65.21%）
+[0.4]+[0.7]*14+[0.6]*13+[0.5]*15+[0.5]*10
 ```
 
 
